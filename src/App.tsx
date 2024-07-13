@@ -9,7 +9,7 @@ import SortSelector from "./components/SortSelector";
 import { Platform } from "./hooks/useGames";
 import { Genre } from "./hooks/useGenres";
 
-
+// Force a commit 
 export interface GameQuery { 
   genre: Genre | null;
   platform: Platform | null;
